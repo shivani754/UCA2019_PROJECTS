@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		body
+		{
+			background-color:#9a7339;
+			color:white;
+		}
+		#d1{
+			height: 50vh;
+			width: 60vw;
+			position:absolute;
+		}
+		#d2
+		{
+			height: 50vh;
+			width: 30vw;
+			margin-left:62vw;
+			position: absolute;
+		}
+		
+	
+	</style>
+</head>
+<body>
+<h1 style="color:black; font-size:35px;">Treat yourself to the holiday of a lifetime.</h1>
+<p style="font-size:25px;">From India Gate to the Taj Mahal; from historical Shimla to the tigers of Ranthambhore and the Burj Khalifa. As you like it.</p>
+<div id="d1">
+	<img src="https://media.architecturaldigest.com/photos/5ba9333dcff1f473d4f3ed8e/master/w_3000,h_2097,c_limit/The%20Empire%20Hotel,%20WorldHotels%20Collection.jpg" class="im" height="150%" width="100%">
+	<img src="https://www.editionhotels.com/wp-content/uploads/2016/02/NYCEB-Lobby-Bar.jpg" class="im" height="150%" width="100%">
+	<img src="https://empirehotelnyc.com/wp-content/uploads/2016/07/empire-hotel-lobby-bar-02.jpg" class="im" height="150%" width="100%">
+
+</div>
+<div id="d2">
+	<pre style="font-size: 15px;">
+Exotic Vacations.
+
+Exotic Vacations by Oberoi offer a window into vibrant cultures,
+historic monuments and extraordinary landscapes. Exotic Vacations
+are personalised itineraries around Incredible India and Dubai 
+for six days or more. And every day a sincerely warm welcome at 
+Oberoi Hotels and Resorts.
+
+Choose from our suggested itineraries or create your own itinerary
+ for six or more nights and let your journey of discovery begin.
+
+For each Exotic Vacations booking, we sponsor the care of one child
+for a year with SOS Children’s Villages in India.To know more,click here.
+
+Prices (Per room per night)
+Offer Details
+
+<b>Valid from  1st April 2019 -- 30th August 2019
+Duration of itinerary                  Price in INR*                Price in USD*</b>
+6 to 7 nights                          INR 19,000                   USD 275 
+8 to 9 nights                          INR 18,500                   USD 265 
+10 to 11 nights                        INR 18,000                   USD 260 
+12 nights or more                      INR 17,000                   USD 245
+</pre>
+</div>
+	<script type="text/javascript">
+		var i;
+		var ind=0;
+		carosel();
+		function carosel()
+		{
+		var arr=document.getElementsByClassName("im");
+		for(i=0;i<arr.length;i++)
+		{
+			arr[i].style.display="none";
+		}
+		if(ind>=arr.length)ind=0;
+		arr[ind].style.display="block";
+		ind++;
+		setTimeout(carosel,2000);
+	    }
+	</script>
+</body>
+</html>

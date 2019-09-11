@@ -1,0 +1,107 @@
+<html>
+<head><title>Forgot Password</title>
+    <style>
+        *{overflow-x:hidden;}
+        .d1
+        {
+            height:100vh;
+            width:70vw;
+            background-image:url('images/lamp.jpg');
+            background-repeat: no-repeat;
+            background-size: 1500px,2000px;
+            position: absolute;
+            outline-offset: 0 0 0 0;
+            padding: 1px;
+        }
+        .d2
+        {
+            height:100vh;
+            width:30vw;
+            background-color:black;
+            margin-left:70vw;
+            
+        }
+       
+   label
+        {
+            color:black;
+        }
+        
+        .form1
+        {
+          width: 738px;  
+        }
+input[type=text], input[type=password] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  height:2;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+    
+}
+#sub{
+  background-color: #4CAF50;
+  color: white;
+    font-size: 12px;
+  padding: 15px 20px ;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 25%;
+    height:2;
+   overflow-x:visible;   
+}
+        td
+        {
+            color: white;
+        }
+    img:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+   }
+input:hover {
+  opacity: 0.8;
+}
+        #link
+        {
+            color:wheat;
+        }
+    </style>
+    </head>
+    <body class="bo" bgcolor="black">
+              <div class="d1">
+         <p style="color:#2D1E01 ;font-size:25;margin-top: 15%;margin-left: 40%;">Forgot Password</p>
+        <div style="margin-top: 0%;margin-left: 30%;border:2px solid black;border-radius: 1em; width: 377px;
+    padding: 22px;box-shadow:5px 10px #2D1E01  ;">        
+        <form onsubmit="alert('An email has been sent on your email-Id.Reset your password there.')"class="form1"> 
+        <label>USERNAME:</label><br>
+        <input type="text"><br>
+          <label>Email</label><br>
+        <input type="text"><br>
+            <input id="sub" type="submit" value="Reset Password">
+            <span class="sp" style="color:black;margin-left: 40px;">For Login? 
+                <a href="login.html">Click Here</a></span>
+        </form>
+              </div>
+        </div>
+            <div class="d2" >
+            <p style="font-size:25px;margin:5;color: white; font-style:bold;">Latest News</p>
+        <table cellspacing="10">
+            <tr>
+            <td><img src="images/room1.jpg"height="183px" width="240px" ></td>
+                <td><a href="" id="link">Hotels can manage there frontdesk point of sales,accounts and much more using one login.</a></td>
+            </tr>
+            <tr>
+            <td><img src="images/room2.jpg" height="183px" width="240px"></td>
+                <td><a href="" id="link">The cloud based hotel management software enables the hotellers to easily manage from anywhere.</a></td>
+            </tr>
+            <tr>
+            <td><img src="images/room3.jpg" height="183px" width="240px"></td>
+                <td><a href="" id="link">Hotel management system is used by many hotels across 450+cities to save the time and money.</a></td>
+            </tr>
+            </table>
+        </div>
+    </body> 
+</html>
